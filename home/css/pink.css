@@ -5,6 +5,6 @@ div {
   display: inline-block;
 }
 
-#app .pinkBG {
+#app {
   background-color: lightpink;
 }
