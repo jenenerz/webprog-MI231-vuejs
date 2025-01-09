@@ -2,7 +2,7 @@ const app = createApp({
   data() {
     return {
       message: "Hello World!",
-      vueclass: "pinkBG"
+      vueClass: "pinkBG"
     }
   }
 })
