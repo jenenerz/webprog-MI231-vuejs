@@ -106,27 +106,27 @@
       <img src="images/pic1.jpg" alt="Gallery Image 6">
     </div>
   </section>
-</body>
-
-<div id="app">
-  {{ message }} <br>
-  {{'Random number: ' + Math.ceil(Math.random()*6) }}
+  
+ <div id="app">
+    {{ message }} <br>
+    {{ 'Random number: ' + randomNumber }}
     <div v-bind:class="vueClass">This element is bound to the "pinkBG" class.</div>
   </div>
 
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  <script src="js/vue.js"></script>
-   <script>
+  <script>
     const app = Vue.createApp({
       data() {
         return {
-          vueClass: "pinkBG"
+          message: "Hello World!",
+          vueClass: "pinkBG",
+          randomNumber: Math.ceil(Math.random() * 6)
         };
       }
     });
 
     app.mount("#app");
   </script>
-
+  
 </body>
 </html>
