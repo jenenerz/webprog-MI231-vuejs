@@ -1,10 +1,11 @@
-const app = createApp({
+const app = Vue.createApp({
   data() {
     return {
       message: "Hello World!",
-      vueClass: "pinkBG"
-    }
+      vueClass: "pinkBG",
+      randomNumber: Math.ceil(Math.random() * 6)
+    };
   }
-})
+});
 
-app.mount('#app')
+app.mount("#app");
