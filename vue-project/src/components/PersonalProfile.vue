@@ -1,0 +1,227 @@
+
+<template>
+<body>
+  <header class="navbar">
+    <img src="images/profile-logo.png" alt="logo" class="logo">
+    <ul>
+      <li><a href="#intro">home</a></li>
+      <li><a href="#education">acads</a></li>
+      <li><a href="#goals">more</a></li>
+    </ul>
+  </header>
+
+  <section id="intro" class="container">
+    <div class="intro">
+      <img src="images/intro-pic.png" alt="intro-pic">
+      <div>
+        <h2>HELLO! I'M JENINE</h2>
+        <p>I am a 2nd year student currently taking Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies. I am 20 years old and I love music and froyo!!
+        </p>
+        <br>
+        <p>Add me on my socials!<br>
+          <a href="https://www.linkedin.com/in/jenine-dulay-b9988b284/" target="_blank">LinkedIn</a> |
+          <a href="https://open.spotify.com/user/parkjimin3389?si=717bf162501242f3" target="_blank">Spotify</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="container">
+    <h2 align="center">EDUCATION / ACHIEVEMENTS</h2>
+    <p><strong>Immaculate Heart of Mary College (2018-2023)</strong></p>
+    <ul>
+      <li>Junior High - Senior High (STEM Strand)</li>
+      <li>Graduated Junior High with Honors</li>
+      <li>Graduated Senior High with Honors</li>
+      <li>STEM SOCIETY Organization Member</li>
+    </ul>
+    <br>
+    <p><strong>Asia Pacific College (2023-PRESENT)</strong></p>
+    <ul>
+      <li>BSIT-MI</li>
+      <li>1st Year of College - Honors</li>
+      <li>Cinemasoma Member</li>
+      <li>Flickers Photo Society Member</li>
+    </ul>
+  </section>
+
+  <section id="it-experience" class="container two-columns">
+    <div class="column">
+      <h2 align="center">IT EXPERIENCE</h2>
+      <ul>
+        <li>Basic Java</li>
+        <li>Basic Python</li>
+        <li>Had HTML during grade school</li>
+        <li>UI/UX Experience (Website and mobile: RamQuest Group Project)</li>
+        <li>Mobile Application (RESCUE app - Group Project)</li>
+      </ul>
+    </div>
+    <div class="column">
+      <div class="gallery">
+        <img src="image-url-here" alt="IT Project 1">
+        <img src="image-url-here" alt="IT Project 2">
+      </div>
+    </div>
+  </section>
+
+  <section id="goals" class="container two-columns">
+    <div class="column">
+      <h2 align="center">HOBBIES & INTERESTS</h2>
+      <ul>
+        <li>Music (1D, Chappell Roan, Olivia Rodrigo, SZA)</li>
+        <li>Films (Beautiful Boy, Challengers, Pitch Perfect Trilogy)</li>
+        <li>Shows (Bojack Horseman, Grey’s Anatomy, The Bear)</li>
+        <li>Video Games (Life is Strange, The Last of Us, Valorant)</li>
+        <li>Photography</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2 align="center">GOALS IN LIFE / DREAMS</h2>
+      <ul>
+        <li>To be able to live on my own and give back to my siblings</li>
+        <li>To be able to meet my favorite artists</li>
+        <li>Graduate college with Honors</li>
+        <li>Learn to play the piano</li>
+        <li>Find a stable job that I enjoy</li>
+        <li>Be able to drive without getting anxious</li>
+        <li>To live near a beach and be able to travel all around the world</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="gallery" class="container">
+    <h2 align="center">PICTURE GALLERY</h2>
+    <div class="gallery">
+      <img src="images/beach.jpg" alt="Gallery Image 1">
+      <img src="images/circuit.jpg" alt="Gallery Image 2">
+      <img src="images/collage.jpg" alt="Gallery Image 3">
+      <img src="images/guitar.jpg" alt="Gallery Image 4">
+      <img src="images/phtogphy.jpg" alt="Gallery Image 5">
+      <img src="images/pic1.jpg" alt="Gallery Image 6">
+    </div>
+  </section>  
+
+</body>
+</template>
+
+<style>
+
+    #app1 {
+      display: inline-block;
+      padding: 10px;
+      font-size: x-large;
+      margin: 20px auto;
+      background-color: #806ea6;
+    }
+
+    * {
+      font-family: Arial, sans-serif;
+    }
+    
+    body {
+      line-height: 1.6;
+      background-color: #f8f7f2;
+    }
+    
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #603f8b;
+      color: white;
+    }
+    
+    .navbar .logo {
+      max-width: 50px; 
+      margin-right: auto; 
+    }
+    
+    .navbar ul {
+      list-style: none;
+      display: flex;
+    }
+    
+    .navbar ul li {
+      margin-left: 20px;
+    }
+    
+    .navbar ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .intro {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .intro img {
+      max-width: 420px;
+      border-radius: 8px;
+    }
+    
+    .intro p {
+      flex: 1;
+    }
+    
+    h2 {
+      margin-bottom: 10px;
+      color: #603f8b;
+    }
+    
+    ul, p {
+      color: #806ea6;
+    }
+    
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    
+    .two-columns {
+      display: flex;
+      gap: 20px;
+    }
+    
+    .column {
+      flex: 1;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+    }
+    
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    a {
+      color: #603f8b;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+</style>
+
