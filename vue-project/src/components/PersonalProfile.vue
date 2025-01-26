@@ -58,8 +58,7 @@
     </div>
     <div class="column">
       <div class="gallery">
-        <img src="image-url-here" alt="IT Project 1">
-        <img src="image-url-here" alt="IT Project 2">
+        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/473012743_1014189447183586_8511567724061474199_n.png?stp=dst-png_s480x480&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=htFVh6qWIT4Q7kNvgFanv7P&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gGsUuuUENqEV393JBJTv6hAVFzzE8WisjIsFLsOamJV0w&oe=67BD81EF" alt="IT Project 1">
       </div>
     </div>
   </section>
