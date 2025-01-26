@@ -12,7 +12,7 @@
 
   <section id="intro" class="container">
     <div class="intro">
-      <img src="images/intro-pic.png" alt="intro-pic">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/470852203_2741293039376032_1118496279224145919_n.png?stp=dst-png_s600x600&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=bhT7vdaXu4IQ7kNvgFgYpBZ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gGG5hlXmxGV_1CR4_Ep-HS93fAl3ZbZarKiOTDwgxGFZA&oe=67BD7A08" alt="intro-pic">
       <div>
         <h2>HELLO! I'M JENINE</h2>
         <p>I am a 2nd year student currently taking Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies. I am 20 years old and I love music and froyo!!
@@ -92,12 +92,12 @@
   <section id="gallery" class="container">
     <h2 align="center">PICTURE GALLERY</h2>
     <div class="gallery">
-      <img src="images/beach.jpg" alt="Gallery Image 1">
-      <img src="images/circuit.jpg" alt="Gallery Image 2">
-      <img src="images/collage.jpg" alt="Gallery Image 3">
-      <img src="images/guitar.jpg" alt="Gallery Image 4">
-      <img src="images/phtogphy.jpg" alt="Gallery Image 5">
-      <img src="images/pic1.jpg" alt="Gallery Image 6">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462577563_1221159922506811_5912691345356275466_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=FgwusuDZknsQ7kNvgH7m_Sw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gFS1l0vDk20hJ_-SkOJp1OOsWJ5E8F5BXTdfRAdDK3fCA&oe=67BD697F" alt="Gallery Image 1">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462561107_3538018906504563_2800419711981788825_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=c9LbhXVcu_UQ7kNvgFV4vrM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gFfqd5Jx9rpdUwWpVEdcLVC0M0Ny6E455_taRMliosrcQ&oe=67BD882D" alt="Gallery Image 2">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/474044527_1005036784987845_5789323196856802067_n.jpg?stp=dst-jpg_s526x395_tt6&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=0TN5doglixoQ7kNvgFihXxi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gFxW0sI5YZw5DSoRsUCbUyts9UfvzJUrBCSvRfCGezrPw&oe=67BD84F5" alt="Gallery Image 3">
+      <img src="blob:https://www.messenger.com/db6e5283-9dae-4b6b-b625-36febc7a8a6b" alt="Gallery Image 4">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/472291686_1475985676690924_3340391392968174146_n.jpg?stp=dst-jpg_s526x395_tt6&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=DGPFbFp9LoEQ7kNvgF6cNMp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gEoqWi-fGYDVQfQkjcK7GEIy08hdVhbrW42suVvVVR2bw&oe=67BD8AE6" alt="Gallery Image 5">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462580120_551441067616775_7617988833554118446_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=8nNJXsImZl0Q7kNvgH2wkHF&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gFjfc93K6esond4g1CFKlPkY8Mb3_nEQVRXagHmmspVew&oe=67BD6A69" alt="Gallery Image 6">
     </div>
   </section>  
 
