@@ -2,7 +2,7 @@
 <template>
 <body>
   <header class="navbar">
-    <img src="images/profile-logo.png" alt="logo" class="logo">
+    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/470051954_596240062794812_7437720925054364491_n.png?stp=dst-png_s480x480&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=_NmsTlLHgy4Q7kNvgF32-a-&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gE9dWms0zgTIT_zYIGyX6pv4Pugm_rP-md3jfQAj_wIag&oe=67BD7D15" alt="logo" class="logo">
     <ul>
       <li><a href="#intro">home</a></li>
       <li><a href="#education">acads</a></li>
