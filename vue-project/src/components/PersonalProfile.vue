@@ -1,223 +1,429 @@
 <template>
-  <div>
-    <header class="navbar">
-      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/470051954_596240062794812_7437720925054364491_n.png?stp=dst-png_s480x480&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=_NmsTlLHgy4Q7kNvgF32-a-&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gE9dWms0zgTIT_zYIGyX6pv4Pugm_rP-md3jfQAj_wIag&oe=67BD7D15" alt="logo" class="logo">
-      <ul>
-        <li><a href="#intro">home</a></li>
-        <li><a href="#education">acads</a></li>
-        <li><a href="#goals">more</a></li>
-      </ul>
-    </header>
+<div id="title" class="title">
+  <img src="images/title.png" alt="Title Image">
+</div>
 
-    <section id="intro" class="container">
-      <div class="intro">
-        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/470852203_2741293039376032_1118496279224145919_n.png?stp=dst-png_s600x600&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=bhT7vdaXu4IQ7kNvgFgYpBZ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gGG5hlXmxGV_1CR4_Ep-HS93fAl3ZbZarKiOTDwgxGFZA&oe=67BD7A08" alt="intro-pic">
-        <div>
-          <h2>HELLO! I'M JENINE</h2>
-          <p>I am a 2nd year student currently taking Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies. I am 20 years old and I love music and froyo!!</p>
-          <br>
-          <p>Add me on my socials!<br>
-            <a href="https://www.linkedin.com/in/jenine-dulay-b9988b284/" target="_blank">LinkedIn</a> |
-            <a href="https://open.spotify.com/user/parkjimin3389?si=717bf162501242f3" target="_blank">Spotify</a>
-          </p>
-        </div>
-      </div>
-    </section>
+<div class="navbar">
+  <img src="images/website-logo.png" alt="Logo">
+  <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#education">Acads</a></li>
+    <li><a href="#hobbies">More</a></li>
+    <li><a href="#comments">Comments</a></li>
+    <li><a href="#ref">References</a></li>
+  </ul>
+</div>
 
-    <section id="education" class="container">
-      <h2 align="center">EDUCATION / ACHIEVEMENTS</h2>
-      <p><strong>Immaculate Heart of Mary College (2018-2023)</strong></p>
-      <ul>
-        <li>Junior High - Senior High (STEM Strand)</li>
-        <li>Graduated Junior High with Honors</li>
-        <li>Graduated Senior High with Honors</li>
-        <li>STEM SOCIETY Organization Member</li>
-      </ul>
-      <br>
-      <p><strong>Asia Pacific College (2023-PRESENT)</strong></p>
-      <ul>
-        <li>BSIT-MI</li>
-        <li>1st Year of College - Honors</li>
-        <li>Cinemasoma Member</li>
-        <li>Flickers Photo Society Member</li>
-      </ul>
-    </section>
-
-    <section id="it-experience" class="container two-columns">
-      <div class="column">
-        <h2 align="center">IT EXPERIENCE</h2>
-        <ul>
-          <li>Basic Java</li>
-          <li>Basic Python</li>
-          <li>Had HTML during grade school</li>
-          <li>UI/UX Experience (Website and mobile: RamQuest Group Project)</li>
-          <li>Mobile Application (RESCUE app - Group Project)</li>
-        </ul>
+<div class="content">
+  <div id="intro" class="container intro">
+    <div class="intro-content">
+      <div class="intro-text">
+        <h2>HELLO! I'M JENINE</h2>
+        <p>
+          I am a 2nd year student currently taking Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies. I am 20 years old and I love music and froyo!!
+        </p>
+        <p>
+          Add me on my socials!<br><br>
+          <a href="https://www.linkedin.com/in/jenine-dulay-b9988b284/" target="_blank">LinkedIn</a> |
+<a href="https://open.spotify.com/user/parkjimin3389?si=5aaf93e351804922" target="_blank">Spotify</a> <br>
+<a href="https://free-palestine.carrd.co/" target="_blank">Stand with Palestine</a>
+        </p>
       </div>
-      <div class="column">
-        <div class="gallery">
-          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/473012743_1014189447183586_8511567724061474199_n.png?stp=dst-png_s480x480&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=htFVh6qWIT4Q7kNvgFanv7P&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gGsUuuUENqEV393JBJTv6hAVFzzE8WisjIsFLsOamJV0w&oe=67BD81EF" alt="IT Project 1">
-        </div>
-      </div>
-    </section>
-
-    <section id="goals" class="container two-columns">
-      <div class="column">
-        <h2 align="center">HOBBIES & INTERESTS</h2>
-        <ul>
-          <li>Music (1D, Chappell Roan, Olivia Rodrigo, SZA)</li>
-          <li>Films (Beautiful Boy, Challengers, Pitch Perfect Trilogy)</li>
-          <li>Shows (Bojack Horseman, Grey’s Anatomy, The Bear)</li>
-          <li>Video Games (Life is Strange, The Last of Us, Valorant)</li>
-          <li>Photography</li>
-        </ul>
-      </div>
-      <div class="column">
-        <h2 align="center">GOALS IN LIFE / DREAMS</h2>
-        <ul>
-          <li>To be able to live on my own and give back to my siblings</li>
-          <li>To be able to meet my favorite artists</li>
-          <li>Graduate college with Honors</li>
-          <li>Learn to play the piano</li>
-          <li>Find a stable job that I enjoy</li>
-          <li>Be able to drive without getting anxious</li>
-          <li>To live near a beach and be able to travel all around the world</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="gallery" class="container">
-      <h2 align="center">PICTURE GALLERY</h2>
-      <div class="gallery">
-        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462577563_1221159922506811_5912691345356275466_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=FgwusuDZknsQ7kNvgH7m_Sw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gFS1l0vDk20hJ_-SkOJp1OOsWJ5E8F5BXTdfRAdDK3fCA&oe=67BD697F" alt="Gallery Image 1">
-        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462561107_3538018906504563_2800419711981788825_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=c9LbhXVcu_UQ7kNvgFV4vrM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gFfqd5Jx9rpdUwWpVEdcLVC0M0Ny6E455_taRMliosrcQ&oe=67BD882D" alt="Gallery Image 2">
-        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/474044527_1005036784987845_5789323196856802067_n.jpg?stp=dst-jpg_s526x395_tt6&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=0TN5doglixoQ7kNvgFihXxi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gFxW0sI5YZw5DSoRsUCbUyts9UfvzJUrBCSvRfCGezrPw&oe=67BD84F5" alt="Gallery Image 3">
-        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/472833028_596302382984640_1584203616362654151_n.jpg?stp=dst-jpg_s552x414_tt6&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=LDDm2FvBYA0Q7kNvgHlkxrH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gEBlsz9uKIBB5S33_XcXGjKGT3bMhVSGHXR7LvAzCxHHw&oe=67BD618C" alt="Gallery Image 4">
-        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/472291686_1475985676690924_3340391392968174146_n.jpg?stp=dst-jpg_s526x395_tt6&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=DGPFbFp9LoEQ7kNvgF6cNMp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gEoqWi-fGYDVQfQkjcK7GEIy08hdVhbrW42suVvVVR2bw&oe=67BD8AE6" alt="Gallery Image 5">
-        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462580120_551441067616775_7617988833554118446_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=8nNJXsImZl0Q7kNvgH2wkHF&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gFjfc93K6esond4g1CFKlPkY8Mb3_nEQVRXagHmmspVew&oe=67BD6A69" alt="Gallery Image 6">
-      </div>
-    </section>  
+      <img src="images/intro-pic.JPG" alt="Your Picture" class="intro-image">
+    </div>
   </div>
+
+  <div id="education" class="container">
+    <h2 class="center">EDUCATION & ACHIEVEMENTS</h2>
+    <div class="two-columns">
+      <div>
+        <h3>Immaculate Heart of Mary College (2018-2023)</h3>
+        <ul>
+          <li>Junior High - Senior High (STEM Strand)</li>
+          <li>Graduated Junior High with Honors</li>
+          <li>Graduated Senior High with Honors</li>
+          <li>STEM SOCIETY Organization Member</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Asia Pacific College (2023-PRESENT)</h3>
+        <ul>
+          <li>BSIT-MI</li>
+          <li>1st Year of College - Honors</li>
+          <li>Cinemasoma Member</li>
+          <li>Flickers Photo Society Member</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="experience" class="container">
+    <h2 class="center">IT EXPERIENCE</h2>
+    <div class="two-columns">
+      <ul>
+        <li>Basic Java</li>
+        <li>Basic Python</li>
+        <li>Had HTML during grade school</li>
+        <li>UI/UX Experience (Website and mobile: RamQuest - Group Project)</li>
+        <li>Mobile Application (RESCUE app - Group Project)</li>
+      </ul>
+      <img src="images/it-exp.png" alt="IT Projects">
+    </div>
+  </div>
+
+  <div class="container two-columns">
+    <div id="hobbies">
+      <h2 class="center">Hobbies & Interests</h2>
+      <ul>
+        <li>Music (1D, Chappell Roan, Olivia Rodrigo, SZA)</li>
+        <li>Films (Beautiful Boy, Challengers, Pitch Perfect Trilogy)</li>
+        <li>Shows (Bojack Horseman, Grey’s Anatomy, The Bear)</li>
+        <li>Video Games (Life is Strange, The Last of Us, Valorant)</li>
+        <li>Photography</li>
+        <li>F1</li>
+      </ul>
+    </div>
+    <div id="goals">
+      <h2 class="center">Goals & Dreams</h2>
+      <ul>
+        <li>To be able to live on my own and give back to my siblings</li>
+        <li>To be able to meet my favorite artists</li>
+        <li>Graduate college with Honors</li>
+        <li>Learn to play the piano</li>
+        <li>Find a stable job that I enjoy</li>
+        <li>Be able to drive without getting anxious</li>
+        <li>To live near a beach and be able to travel all around the world</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="gallery" class="container">
+  <div class="two-columns">
+    <div>
+      <h2 class="center">PICTURE GALLERY</h2>
+    </div>
+    <div>
+      <img src="images/picture-gallery.png" alt="Gallery Image" style="max-width: 100%; border-radius: 10px;">
+    </div>
+  </div>
+</div>
+
+<div id="comments" class="container guestbook-container">
+  <div class="header">
+    <div class="title-container">Comments</div>
+  </div>
+  <form @submit.prevent="addComment">
+    <div>
+      <p>
+        Name: <br>
+        <input type="text" v-model="guestName" placeholder="Enter your name" required />
+      </p>
+      <p>
+        Comment: <br>
+        <textarea v-model="guestComment" placeholder="Write your comment" rows="4" required></textarea>
+      </p>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+  <div class="comment-section">
+    <div v-for="comment in comments" :key="comment.id" class="comment">
+      <p><strong>{{ comment.name }}</strong></p>
+      <p>{{ comment.message }}</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="ref" class="container">
+  <h2 class="center">References</h2>
+  <ul>
+    <li><a href="https://www.w3schools.com/css/css_navbar_vertical.asp
+" target="_blank">W3Schools - NavBar</a></li>
+    <li><a href="https://www.w3schools.com/css/css3_flexbox.asp
+" target="_blank">W3Schools - Flexbox</a></li>
+    <li><a href="https://www.w3schools.com/html/html_links.asp
+" target="_blank">W3Schools - Links</a></li>
+    <li><a href="https://dev.to/tsanak/simple-comment-section-with-vue-components-1cdm
+" target="_blank">Vue.js - Comment section</a></li>
+<li><a href="https://vuejs.org/guide/introduction.html
+  " target="_blank">Other Vue.js</a></li>
+  </ul>
+</div>
+
 </template>
 
 <style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f7f2;
+  color: #562123;
+}
+#ref ul {
+  margin-left: 230px;
+}
 
-    #app1 {
-      display: inline-block;
-      padding: 10px;
-      font-size: x-large;
-      margin: 20px auto;
-      background-color: #806ea6;
-    }
+a {
+  color: #562123;
+  text-decoration: none;
+}
 
-    * {
-      font-family: Arial, sans-serif;
-    }
-    
-    body {
-      line-height: 1.6;
-      background-color: #f8f7f2;
-    }
-    
-    .navbar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 20px;
-      background-color: #603f8b;
-      color: white;
-    }
-    
-    .navbar .logo {
-      max-width: 80px; 
-      margin-right: auto; 
-    }
-    
-    .navbar ul {
-      list-style: none;
-      display: flex;
-    }
-    
-    .navbar ul li {
-      margin-left: 20px;
-    }
-    
-    .navbar ul li a {
-      color: white;
-      text-decoration: none;
-    }
-    
-    .container {
-      width: 90%;
-      max-width: 1200px;
-      margin: 20px auto;
-      padding: 20px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    .intro {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-    }
-    
-    .intro img {
-      max-width: 420px;
-      border-radius: 8px;
-    }
-    
-    .intro p {
-      flex: 1;
-    }
-    
-    h2 {
-      margin-bottom: 10px;
-      color: #603f8b;
-    }
-    
-    ul, p {
-      color: #806ea6;
-    }
-    
-    ul {
-      list-style-type: disc;
-      margin-left: 20px;
-    }
-    
-    .two-columns {
-      display: flex;
-      gap: 20px;
-    }
-    
-    .column {
-      flex: 1;
-      padding: 10px;
-      border-radius: 8px;
-    }
-    
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 10px;
-    }
-    
-    .gallery img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-    
-    a {
-      color: #603f8b;
-      text-decoration: none;
-    }
-    
-    a:hover {
-      text-decoration: underline;
-    }
-    
+a:hover {
+  text-decoration: underline;
+}
+
+#title img {
+  display: block;
+  margin: 8px auto;
+  max-width: 650px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #562123;
+  color: #f8f7f2;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+.navbar img {
+  max-width: 150px;
+  padding: 32px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-bottom: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#education, #hobbies, #goals {
+  background-color: #562123;
+  color: #f8f7f2;
+  border-radius: 10px;
+}
+
+#education h2, #hobbies h2, #goals h2 {
+  color: #f8f7f2;
+}
+
+#experience {
+  border: 2px solid #562123;
+  padding: 20px;
+}
+
+h2 {
+  color: #562123;
+}
+
+h2.center {
+  text-align: center;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro img {
+  max-width: 400px;
+  border-radius: 200px;
+}
+
+.two-columns {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.two-columns > div {
+  flex: 1;
+}
+
+#experience .two-columns {
+  justify-content: flex-start;
+}
+
+#education .two-columns {
+  justify-content: flex-end;
+}
+
+#experience img {
+  margin-left: 400px; 
+  max-width: 300px;
+}
+
+p {
+  color: #562123;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+
+  .content {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .two-columns {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #title img {
+    max-width: 100%;
+  }
+
+  .intro img {
+    max-width: 250px;
+  }
+
+  .navbar ul li {
+    margin-bottom: 10px;
+  }
+
+  .navbar img {
+    max-width: 120px;
+  }
+
+  #experience img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+/*Comment Section */
+.comment-section {
+  margin-top: 20px;
+}
+
+.comment {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.comment p {
+  margin: 5px 0;
+}
+
+.guestbook-container {
+  background-color: #f8f7f2;
+  border: 2px solid #562123;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.guestbook-container .header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.guestbook-container .header .title-container {
+  font-size: 24px;
+  font-weight: bold;
+  color: #562123;
+}
+
+.guestbook-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.guestbook-container input, .guestbook-container textarea {
+  padding: 10px;
+  border: 1px solid #562123;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.guestbook-container button {
+  background-color: #562123;
+  color: #f8f7f2;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.guestbook-container button:hover {
+  background-color: #6c3a32;
+}
 </style>
+
+<script>
+const comments = Vue.createApp({
+    data() {
+      return {
+        guestName: '',
+        guestComment: '',
+        comments: []
+      };
+    },
+    methods: {
+      addComment() {
+        const newComment = {
+          id: this.comments.length + 1,
+          name: this.guestName,
+          message: this.guestComment
+        };
+        this.comments.push(newComment);
+        this.guestName = '';
+        this.guestComment = '';
+      }
+    }
+  });
+
+  comments.mount('#comments');
+</script>
 
