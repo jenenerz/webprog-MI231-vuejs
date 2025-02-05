@@ -1,6 +1,6 @@
 <template>
   <div class="comments-container">
-    <h1>Comments</h1>
+    <h2>Comments</h2>
     <ul>
       <li v-for="comment in comments" :key="comment.id" class="comment-item">
         <div class="comment-name">{{ comment.name }}</div>
@@ -41,7 +41,7 @@ onMounted(() => {
   max-width: 600px;
 }
 
-h1 {
+h2 {
   color: #806ea6;
 }
 
@@ -59,7 +59,7 @@ h1 {
 }
 
 .comment-name, .comment-text {
-  color: #f8f7f2;
+  color: #806ea6;
   word-wrap: break-word;
 }
 

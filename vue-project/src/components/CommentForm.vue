@@ -86,7 +86,7 @@ textarea.form-control {
 
 .btn {
   padding: 0.5rem 1rem;
-  background-color: #f8f7f2;
+  background-color: #806ea6;
   color: white;
   border: none;
   border-radius: 4px;
@@ -96,4 +96,9 @@ textarea.form-control {
 .status-message {
   color: #806ea6;
 }
+
+.comment-form-container label {
+  color: #806ea6;
+}
+
 </style>
