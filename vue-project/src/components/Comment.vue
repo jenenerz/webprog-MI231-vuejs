@@ -33,29 +33,31 @@ onMounted(() => {
 <style scoped>
 .comments-container {
   border: dashed black 1px;
-  display: inline-block;
-  margin: 10px;
-  padding: 10px;
+  margin: 20px auto;
+  padding: 20px;
   background-color: #806ea6;
   width: 100%;
   max-width: 600px;
+  text-align: center;
+}
+
+.title {
+  color: #f8f7f2;
 }
 
 .comment-item {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   margin-bottom: 10px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-.comment-name {
-  font-weight: bold;
-}
-
-.comment-text {
+.comment-name, .comment-text {
+  color: #f8f7f2;
   word-wrap: break-word;
 }
 </style>

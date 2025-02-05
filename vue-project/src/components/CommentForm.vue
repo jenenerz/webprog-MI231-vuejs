@@ -49,21 +49,25 @@ async function submitComment() {
 <style scoped>
 .comment-form-container {
   border: dashed black 1px;
-  display: inline-block;
-  margin: 10px;
-  padding: 10px;
+  margin: 20px auto;
+  padding: 20px;
   background-color: #806ea6;
   width: 100%;
   max-width: 600px;
+  text-align: center;
+}
+
+.title {
+  color: #f8f7f2;
+}
+
+.label {
+  color: #f8f7f2;
 }
 
 .form-group {
   margin-bottom: 1rem;
-}
-
-label {
-  display: block;
-  margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 .form-control {
@@ -72,12 +76,12 @@ label {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  height: 40px; 
+  height: 40px;
 }
 
 textarea.form-control {
-  height: 100px; 
-  resize: none; 
+  height: 100px;
+  resize: none;
 }
 
 .btn {
@@ -87,5 +91,9 @@ textarea.form-control {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.status-message {
+  color: #f8f7f2;
 }
 </style>
