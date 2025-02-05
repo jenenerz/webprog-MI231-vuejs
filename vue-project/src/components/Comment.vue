@@ -31,33 +31,43 @@ onMounted(() => {
 </script>
 
 <style scoped>
+
 .comments-container {
   border: dashed black 1px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #806ea6;
+  background-color: #f8f7f2;
   width: 100%;
   max-width: 600px;
-  text-align: center;
 }
 
-.title {
-  color: #f8f7f2;
+h1 {
+  color: #806ea6;
 }
 
 .comment-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   margin-bottom: 10px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  align-items: flex-start; 
+  width: 90%; 
+  max-width: 500px; 
+  margin: 10px auto;
 }
 
 .comment-name, .comment-text {
   color: #f8f7f2;
+  word-wrap: break-word;
+}
+
+.comment-name {
+  font-weight: bold;
+}
+
+.comment-text {
   word-wrap: break-word;
 }
 </style>

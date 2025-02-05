@@ -51,18 +51,18 @@ async function submitComment() {
   border: dashed black 1px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #806ea6;
+  background-color: #f8f7f2;
   width: 100%;
   max-width: 600px;
   text-align: center;
 }
 
-.title {
-  color: #f8f7f2;
+h2 {
+  color: #806ea6;
 }
 
 .label {
-  color: #f8f7f2;
+  color: #806ea6;
 }
 
 .form-group {
@@ -86,7 +86,7 @@ textarea.form-control {
 
 .btn {
   padding: 0.5rem 1rem;
-  background-color: #603f8b;
+  background-color: #f8f7f2;
   color: white;
   border: none;
   border-radius: 4px;
@@ -94,6 +94,6 @@ textarea.form-control {
 }
 
 .status-message {
-  color: #f8f7f2;
+  color: #806ea6;
 }
 </style>
