@@ -1,15 +1,11 @@
 <template>
-  <personal-profile-web-page/>
   <h1>Food</h1>
-  <country/>
+  <country/> <br>
   <food-item/>
   <food-item/>
-  <food-item/>
-  <comment-form/>
+  <food-item/> <br>
+  <personal-profile/> <br>
+  <comment-form/> <br>
   <comment/>
-   
-
 </template>
-
-<script></script>
   

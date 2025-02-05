@@ -1,66 +1,61 @@
 <template>
+  <div class="comments-container">
     <h1>Comments</h1>
     <ul>
-      <li v-for="comment in comments" :key="comment.id">{{ comment.name }} {{ comment.comment }}</li>
+      <li v-for="comment in comments" :key="comment.id" class="comment-item">
+        <div class="comment-name">{{ comment.name }}</div>
+        <div class="comment-text">{{ comment.comment }}</div>
+      </li>
     </ul>
-  </template>
-  
-  <script></script>
-  
-  <style>
-    #app > div {
-      border: dashed black 1px;
-      display: inline-block;
-      margin: 10px;
-      padding: 10px;
-      background-color: #806ea6;
-    }
-  </style>
+  </div>
+</template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import { supabase } from '../lib/supabaseClient'
+import { ref, onMounted } from 'vue';
+import { supabase } from '../lib/supabaseClient';
 
-const comments = ref([])
+const comments = ref([]);
 
 async function getComments() {
-  const { data } = await supabase.from('comments').select()
-  comments.value = data
+  const { data, error } = await supabase.from('comments').select();
+  if (error) {
+    console.error("Error fetching comments:", error);
+  } else {
+    comments.value = data;
+  }
 }
 
 onMounted(() => {
-  getComments()
-})
-
+  getComments();
+});
 </script>
 
-
-<style>
+<style scoped>
 .comments-container {
-  width: 80%;
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 15px;
-  background-color: #f8f7f2;
-  border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-}
-
-.comments-container h1 {
-  text-align: center;
-  color: #603f8b;
-}
-
-.comments-list {
-  list-style: none;
-  padding: 0;
-}
-
-.comments-list li {
+  border: dashed black 1px;
+  display: inline-block;
+  margin: 10px;
   padding: 10px;
-  margin: 5px 0;
-  background-color: #ddd;
+  background-color: #806ea6;
+  width: 100%;
+  max-width: 600px;
+}
+
+.comment-item {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 
+.comment-name {
+  font-weight: bold;
+}
+
+.comment-text {
+  word-wrap: break-word;
+}
 </style>
