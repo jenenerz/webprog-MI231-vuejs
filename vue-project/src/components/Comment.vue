@@ -36,11 +36,31 @@ onMounted(() => {
 
 
 <style>
-  #app > div {
-    border: dashed black 1px;
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    background-color: #806ea6;
-  }
+.comments-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #f8f7f2;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comments-container h1 {
+  text-align: center;
+  color: #603f8b;
+}
+
+.comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-list li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
 </style>
