@@ -7,5 +7,7 @@
   <personal-profile/> <br>
   <comment-form/> <br>
   <comment/>
+  <rest-api/>
+
 </template>
   
